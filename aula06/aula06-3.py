@@ -1,7 +1,7 @@
 import cv2
 from matplotlib import pyplot as plt
 
-img = cv2.imread("data/lena.jpg", cv2.IMREAD_COLOR)
+img = cv2.imread("dados.jpg", cv2.IMREAD_COLOR)
 
 	
 

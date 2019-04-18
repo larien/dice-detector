@@ -3,7 +3,7 @@ import numpy as np
 
 from matplotlib import pyplot as plt
 
-img = cv2.imread("data/lena.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("dados.jpg", cv2.IMREAD_GRAYSCALE)
 
 	
 # create a mask

@@ -4,7 +4,7 @@ import numpy as np
 
 
 # Read image
-im = cv2.imread("data/blob.jpg", cv2.IMREAD_GRAYSCALE)
+im = cv2.imread("dados.jpg", cv2.IMREAD_GRAYSCALE)
  
 # Set up the detector with default parameters.
 detector = cv2.SimpleBlobDetector_create()
@@ -12,7 +12,7 @@ detector = cv2.SimpleBlobDetector_create()
 # Detect blobs.
 keypoints = detector.detect(im)
 
-print("Blobs = ", len(keypoints))
+print("Blobs = ", keypoints)
 for marker in keypoints:
     #center
     x,y = np.int(marker.pt[0]),np.int(marker.pt[1])

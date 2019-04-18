@@ -1,7 +1,7 @@
 import cv2
 
 
-img = cv2.imread("data/lena.jpg", cv2.IMREAD_COLOR)
+img = cv2.imread("dados.jpg", cv2.IMREAD_COLOR)
 
 img_yuv = cv2.cvtColor(img, cv2.COLOR_BGR2YUV)
 

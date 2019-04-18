@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("data/lena.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("dados.jpg", cv2.IMREAD_GRAYSCALE)
 
 	
 
